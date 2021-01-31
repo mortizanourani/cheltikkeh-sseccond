@@ -1,0 +1,43 @@
+
+body{
+	margin: 0px;
+	direction: rtl;
+}
+/* Fonts definitions */
+@font-face{
+	font-family:'soroosh';
+    src:url('/includes/fonts/BSoroosh.eot?#') format('embedded-opentype'),
+		url('/includes/fonts/BSoroosh.woff') format('woff'),
+		url('/includes/fonts/BSoroosh.ttf') format('truetype'); 
+}
+@font-face{
+	font-family:'roya';
+    src:url('/includes/fonts/BRoya.eot?#') format('eot'),
+		url('/includes/fonts/BRoya.woff') format('woff'),
+		url('/includes/fonts/BRoya.ttf') format('truetype'); 
+}
+@font-face{
+	font-family:'mitra';
+    src:url('/includes/fonts/BMitra.eot?#') format('eot'),
+		url('/includes/fonts/BMitra.woff') format('woff'),
+		url('/includes/fonts/BMitra.ttf') format('truetype'); 
+}
+@font-face{
+	font-family:'nazanin';
+    src:url('/includes/fonts/BNazanin.eot?#') format('eot'),
+		url('/includes/fonts/BNazanin.woff') format('woff'),
+		url('/includes/fonts/BNazanin.ttf') format('truetype'); 
+}
+@font-face{
+	font-family:'titr';
+    src:url('/includes/fonts/BTitr.eot?#') format('eot'),
+		url('/includes/fonts/BTitr.woff') format('woff'),
+		url('/includes/fonts/BTitr.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family:'icon';
+    src:url('/includes/fonts/icon.eot?#') format('eot'),
+		url('/includes/fonts/icon.woff') format('woff'),
+		url('/includes/fonts/icon.ttf') format('truetype'); 
+}

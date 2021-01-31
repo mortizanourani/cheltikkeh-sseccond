@@ -1,0 +1,531 @@
+
+/* Header CasCade Styles */
+.header-logo{
+	margin: 0px 60px 0px 0px;
+}
+.main-menu{
+	position: absolute;
+	margin: 0px 0px 0px 8%;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	text-align: left;
+	overflow: hidden;
+}
+.main-menu form{
+	display: inline;
+}
+.main-menu a{
+	margin: 0px 5px;
+}
+.main-menu button,
+.main-menu a button{
+	padding: 26px 5px;
+	font: 16px soroosh;
+	color: rgba(0, 70, 160, 1);
+	text-decoration: none;
+}
+.main-menu button:hover,
+.main-menu a:hover button{
+	color: rgba(220, 0, 0, 1);
+}
+.main-menu a.btnregister{
+	border: 2px solid rgba(0, 70, 160, 1);
+	border-radius: 50px;
+	padding: 5px 15px;
+	transition: 450ms;
+	-moz-transition: 450ms;
+	-webkit-transition: 450ms;
+}
+.main-menu a.btnregister:hover{
+	background-color: rgba(0, 70, 160, 1);
+	border-color: rgba(255, 255, 255, 0);
+	color: rgba(255, 255, 255, 1);
+	
+}
+
+/* Body CasCade Styles */
+.main{
+	position: relative;
+	margin: 85px 235px 0px 5px;
+	padding: 0px;
+}
+
+.background{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.sidebar{
+	position: fixed;
+	padding: 100px 15px;
+	width: 200px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px -5px 10px rgba(200, 200, 200, 1);
+	z-index: 1;
+}
+
+.topic{
+	margin: 0px;
+	padding: 15px 0px;
+}
+.topic .square-line{
+	width: 35%;
+	margin: 0px;
+}
+
+.title{
+	margin: 0px;
+	padding: 10px 0px;
+	padding-bottom: 25px;
+	font: 16px soroosh;
+	text-align: justify;
+}
+
+/* Sidebar CasCade Styles */
+.sidebar .button{
+	width: 100%;
+	padding: 5px 20px;
+	border-radius: 3px;
+	font: 16px soroosh;
+	color: rgba(0, 70, 160, 1);
+	transition: all 100ms;
+	-moz-transition: all 100ms;
+	-webkit-transition: all 100ms;
+}
+.sidebar .button:disabled,
+.sidebar .button:hover:disabled{
+	color: rgba(0, 70, 160, 1);
+	background-color: rgba(0, 70, 160, 0.1);
+	border-right: 5px solid rgba(0, 70, 160, 1);
+	padding-right: 15px;
+}
+.sidebar .button:hover{
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 70, 160, 1);
+}
+
+div.content{
+	padding: 0px 50px;
+}
+div.col{
+	width: 47%;
+	margin: 0px 2%;
+	padding: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+div.right-col{
+	margin-right: 0px;
+}
+div.left-col{
+	margin-left: 0px;
+}
+form.form{
+	width: 100%;
+	margin: 15px 0px 35px 0px;
+	padding: 25px 0px 10px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px rgba(200, 200, 200, 1);
+}
+form.form h5,
+form.form input,
+form.form button,
+form.form select,
+form.form textarea{
+	width: 86%;
+	margin: 10px 7%;
+}
+form.form h5.result{
+	padding: 20px 0px;
+	text-align: center;
+}
+form.form h5.title{
+	padding: 0px;
+}
+
+/* Pages CasCade Styles */
+.square{
+	margin: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.modules,
+.templates,
+.modules:before,
+.templates:before{
+	width: 250px;
+}
+.modules .frame,
+.templates .frame{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.square img{
+	width: 100%;
+}
+.square .caption{
+	padding: 25px 0px;
+	font: bold 50px soroosh;
+}
+.square .title{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	bottom: 0px;
+	padding: 0px;
+	font: bold 15px arial;
+	text-align: center;
+	overflow: hidden;
+	transition: 250ms;
+	-moz-transition: 250ms;
+	-webkit-transition: 250ms;
+}
+.square:hover .title{
+	height: auto;
+	padding: 15px 0px;
+}
+
+div.item{
+	width: 100%;
+	margin: 5px 0px;
+	padding: 5px 0px;
+	border-radius: 3px;
+	font: 16px soroosh;
+}
+div.item:hover{
+	background-color: rgba(0, 70, 160, 0.05);
+}
+
+div.item.bar{
+	color: rgba(0, 0, 0, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(50, 100, 150, 0.25);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+
+div.item.valid{
+	color: rgba(50, 175, 50, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(100, 250, 100, 0.15);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.item.expired{
+	color: rgba(150, 0, 0, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(250, 100, 100, 1);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+
+div.item.draft{
+	color: rgba(50, 175, 50, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(100, 250, 100, 0.15);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.item.draft a,
+div.item.draft a:hover{
+	color: rgba(50, 175, 50, 1);
+}
+
+div.item.paid{
+	color: rgba(0, 0, 0, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(100, 225, 100, 1);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+
+div.item.unread{
+	color: rgba(120, 170, 240, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(0, 70, 160, 0.05);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.item.unread a,
+div.item.unread a:hover{
+	color: rgba(0, 70, 160, 1);
+}
+div.item.readed{
+	box-shadow: 0px 0px 2px rgba(200, 210, 220, 1);
+}
+div.item.readed a,
+div.item.readed a:hover{
+	color: rgba(175, 175, 175, 1);
+}
+
+div.item.closed{
+	color: rgba(200, 50, 50, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(250, 50, 0, 0.25);
+	box-shadow: 0px 0px 2px rgba(200, 210, 220, 1);
+}
+div.item.closed a,
+div.item.closed a:hover{
+	color: rgba(200, 50, 50, 1);
+}
+div.item.agent-waiting{
+	color: rgba(0, 70, 160, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(0, 70, 160, 0.1);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.item.agent-waiting a,
+div.item.agent-waiting a:hover{
+	color: rgba(0, 70, 160, 1);
+}
+div.item.in-process{
+	color: rgba(175, 175, 175, 1);
+	background-color: transparent;
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.item.in-process a,
+div.item.in-process a:hover{
+	color: rgba(175, 175, 175, 1);
+}
+div.item.user-waiting{
+	color: rgba(235, 185, 50, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(235, 185, 50, 0.25);
+	box-shadow: 0px 0px 2px rgba(235, 185, 50, 1);
+}
+div.item.user-waiting a,
+div.item.user-waiting a:hover{
+	color: rgba(235, 85, 5, 1);
+}
+div.item.read{
+	color: rgba(50, 125, 25, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(75, 255, 75, 0.5);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.item.read a,
+div.item.read a:hover{
+	color: rgba(50, 125, 25, 1);
+}
+
+div.item h5{
+	font: 15px soroosh;
+	display: inline-block;
+	vertical-align: top;
+}
+div.item h5.name{
+	width: 25%;
+}
+div.item h5.title{
+	width: 35%;
+	max-height: 26px;
+	padding: 0px;
+	overflow: hidden;
+}
+div.item h5.status{
+	width: 15%;
+	max-height: 26px;
+	overflow: hidden;
+}
+div.item h5.message{
+	width: 55%;
+	max-height: 26px;
+	overflow: hidden;
+}
+div.item h5.ip,
+div.item h5.date{
+	width: 15%;
+	font: 13px arial;
+	vertical-align: middle;
+}
+
+div.item h5.amount,
+div.item h5.number,
+div.item h5.source,
+div.item h5.username{
+	width: 20%;
+}
+
+div.item h5.agent{
+	width: 45%;
+}
+
+div.item h5.phone,
+div.item h5.email{
+	width: 17%;
+}
+
+div.item h5.host,
+div.item h5.traffic{
+	width: 20%;
+}
+
+div.item.bar h5{
+	font: 15px soroosh;
+}
+
+/* --- */
+div.topic-box  .topic{
+	padding-bottom: 0px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+div.topic-box .back{
+	width: 60px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px rgba(127, 127, 127, 1);
+	background-color: rgba(0, 70, 160, 0.1);
+	margin-left: 10px;
+}
+div.topic-box .back:before{
+	font: 17px icon;
+	content: "\f064";
+	color: rgba(100, 125, 220, 1);
+}
+div.topic-box .square-line{
+	width: 35%;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+div.info-box{
+	width: 100%;
+	margin: 10px 0px;
+	padding: 5px 5px;
+	border-radius: 3px;
+	font: 15px soroosh;
+	color: rgba(0, 70, 160, 1);
+	border: 1px solid rgba(175, 175, 175, 1);
+	background-color: rgba(0, 70, 160, 0.05);
+	box-shadow: 0px 0px 2px rgba(175, 175, 175, 1);
+}
+div.info-box .date,
+div.info-box .name,
+div.info-box .email{
+	width: 29%;
+	padding: 0px 2%;
+	font: 15px soroosh;
+	display: inline-block;
+	vertical-align: middle;
+}
+div.info-box .date{
+	font: 13px arial;
+}
+
+div.messagebox,
+div.message-box{
+	width: 100%;
+	margin: 0px;
+	padding: 5px 5px;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 2px rgba(200, 200, 200, 1);
+}
+div.messagebox{
+	padding: 10px 0px;
+}
+div.messagebox .message,
+div.message-box .message{
+	width: 96%;
+	margin: 0px 2%;
+	font: 15px soroosh;
+	text-align: justify;
+}
+div.message-box form{
+	margin: 0px;
+}
+div.message-box .button{
+	margin: 5px;
+	margin-top: 15px;
+}
+
+/* Footer CasCade Styles */
+.footer ul.fotter-logo{
+	display: inline;
+	width: 100%;
+}
+.copyright a{
+	padding: 0px;
+	color: rgba(235, 50, 0, 1);
+}
+.copyright a:hover{
+	color: rgba(220, 0, 0, 1);
+}
+
+/* Colors */
+.default{
+	background-color: rgba(255, 255, 255, 1);
+	border: solid 2px rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
+}
+.default-outline{
+	background-color: transparent;
+	border: solid 2px rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
+}
+.white{
+	background-color: rgba(255, 255, 255, 1);
+}
+.white-text{
+	color: rgba(255, 255, 255, 1);
+}
+.black{
+	background-color: rgba(0, 0, 0, 1);
+}
+.black-text{
+	color: rgba(0, 0, 0, 1);
+}
+.gray{
+	background-color: rgba(60, 60, 60, 1);
+}
+.light-gray{
+	background-color: rgba(235, 235, 235, 1);
+}
+.gray-text{
+	color: rgba(127, 127, 127, 1);
+}
+.red{
+	background-color: rgba(200, 50, 50, 1);
+}
+.red-text{
+	color: rgba(250, 75, 75, 1);
+}
+.light-red{
+	background-color: rgba(240, 80, 80, 1);
+}
+.orange{
+	background-color: rgba(235, 85, 5, 1);
+}
+.orange-text{
+	color: rgba(250, 185, 50, 1);
+}
+.light-orange{
+	background-color: rgba(250, 185, 50, 1);
+}
+.green{
+	background-color: rgba(100, 200, 50, 1);
+}
+.green-text{
+	color: rgba(100, 200, 50, 1);
+}
+.dark-green{
+	background-color: rgba(75, 150, 50, 1);
+}
+.blue{
+	background-color: rgba(50, 100, 200, 1);
+}
+.blue-text{
+	color: rgba(0, 70, 160, 1);
+}
+.light-blue{
+	background-color: rgba(75, 150, 250, 1);
+}

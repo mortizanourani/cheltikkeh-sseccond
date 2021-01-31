@@ -1,0 +1,587 @@
+/* Editor CasCade Styles */
+body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select:none;
+}
+
+/* ---------------------------- */
+/* Editor Header CasCade Styles */
+/* ---------------------------- */
+.cheltikkeh-editor-header{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	height: 60px;
+	left: 0px;
+	padding: 10px 0px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px -5px 20px rgba(127, 127, 127, 1);
+	overflow: hidden;
+	z-index: 10;
+}
+.cheltikkeh-editor-header .elements,
+.cheltikkeh-editor-header .operation-menu{
+	position: relative;
+	width: 45%;
+	margin: 0px;
+	text-align: left;
+	display: inline-block;
+}
+.cheltikkeh-editor-header .elements{
+		right: 0px;
+		text-align: right;
+}
+
+.cheltikkeh-editor-header .texture{
+	border: none;
+	outline: none;
+	margin: 5px 0px;
+	padding: 10px 20px;
+	border-radius: 2px;
+	font: 15px soroosh;
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+.cheltikkeh-editor-header .texture:hover{
+	opacity: 0.85;
+	background-color: rgba(175, 175, 175, 1);
+}
+.cheltikkeh-editor-header .texture:disabled{
+	opacity: 0.25;
+	cursor: initial;
+}
+
+.cheltikkeh-editor-header .texture.gray{
+	background-color: rgba(200, 200, 200, 1);
+}
+.cheltikkeh-editor-header .texture.red{
+	background-color: rgba(250, 75, 75, 1);
+}
+.cheltikkeh-editor-header .texture.blue{
+	background-color: rgba(75, 150, 250, 1);
+}
+.cheltikkeh-editor-header .texture.green{
+	background-color: rgba(75, 220, 75, 1);
+}
+.cheltikkeh-editor-header .texture.orange{
+	background-color: rgba(250, 185, 50, 1);
+}
+
+.cheltikkeh-editor-header form.save-form,
+.cheltikkeh-editor-header form.operation-form{
+	direction: rtl;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+/* ---------------------------- */
+
+/* --------------------------- */
+/* Editor Menus CasCade Styles */
+/* --------------------------- */
+.cheltikkeh-modules-menu,
+.cheltikkeh-settings-menu,
+.cheltikkeh-templates-menu{
+	position: fixed;
+	width: 0px;
+	top: 80px;
+	right: 0px;
+	bottom: 0px;
+	padding-top: 10px;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 5px 0px 20px rgba(127, 127, 127, 1);
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	transition: 350ms;
+	-moz-transition: 350ms;
+	-webkit-transition: 350ms;
+	z-index: 9;
+}
+.cheltikkeh-modules-menu h3,
+.cheltikkeh-templates-menu h3{
+	margin: 20px;
+	font: 15px soroosh;
+	color: rgba(0, 70, 160, 1);
+}
+.cheltikkeh-modules-menu .red-text,
+.cheltikkeh-templates-menu .red-text{
+	text-decoration: none;
+	color: rgba(250, 50, 50, 1);
+}
+
+.cheltikkeh-settings-menu{
+	text-align: right;
+}
+.cheltikkeh-module-item,
+.cheltikkeh-template-item{
+	margin: 0px 10px;
+}
+.cheltikkeh-module-item img,
+.cheltikkeh-template-item img{
+	position: relative;
+	width: 100%;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px rgba(127, 127, 127, 1);
+}
+
+/* ---------------------------- */
+/* Settings Form CasCade Styles */
+.cheltikkeh-settings-menu menu#cheltikkeh-editor-settings-tabs{
+	margin: 10px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.cheltikkeh-settings-menu menu#cheltikkeh-editor-settings-tabs button{
+	outline: none;
+	border: none;
+	background: transparent;
+	font: 16px soroosh;
+	color: rgba(127, 127, 127, 1);
+	border-radius: 5px 5px 0 0;
+	border: 1px solid rgba(127, 127, 127, 1);
+	border-bottom: 0px;
+	vertical-align: bottom
+}
+.cheltikkeh-settings-menu menu#cheltikkeh-editor-settings-tabs button:disabled{
+	font: bold 17px soroosh;
+	color: rgba(250, 50, 50, 1);
+	border: 2px solid rgba(250, 50, 50, 1);
+	border-bottom: 0px;
+}
+
+.cheltikkeh-settings-menu div{
+	margin: 10px;
+	margin-top: 0px;
+	border-top: 2px solid rgba(250, 50, 50, 1);
+}
+.cheltikkeh-settings-menu div nav{
+	padding-bottom: 10px;
+	border-bottom: 2px dashed rgba(127, 127, 127, 1);
+}
+.cheltikkeh-settings-menu div h5.subtitle{
+	margin: 0px;
+	margin-top: 10px;
+	font: 17px soroosh;
+	color: rgba(255, 185, 50, 1);
+}
+.cheltikkeh-settings-menu div textarea,
+.cheltikkeh-settings-menu div select.select,
+.cheltikkeh-settings-menu div img.src,
+.cheltikkeh-settings-menu div input.text{
+	width: 100%;
+	border: 0px;
+	outline: none;
+	margin: 0px;
+	padding: 7px 10px;
+	background-color: transparent;
+	color: rgba(50, 50, 250, 1);
+	border: solid 2px rgba(200, 200, 200, 1);
+	border-radius: 3px;
+	font: 15px soroosh;
+	text-align: justify;
+	resize: none;
+}
+.cheltikkeh-settings-menu div select.select{
+	padding: 6px 10px;
+}
+.cheltikkeh-settings-menu div img.src{
+	width: 270px;
+	border: solid 5px rgba(200, 200, 200, 1);
+	padding: 0px;
+}
+
+.cheltikkeh-settings-menu nav#content #text,
+.cheltikkeh-settings-menu nav#content #category{
+	margin-top: 5px;
+}
+
+.cheltikkeh-settings-menu div #font #size,
+.cheltikkeh-settings-menu div #font #family,
+.cheltikkeh-settings-menu div #border #width,
+.cheltikkeh-settings-menu div #border #style{
+	width: 64%;
+	vertical-align: bottom;
+	font: 13px tahoma;
+}
+.cheltikkeh-settings-menu div #font #size,
+.cheltikkeh-settings-menu div #border #width{
+	width: 34%;
+}
+.cheltikkeh-settings-menu div #border #style{
+	padding: 2px 10px;
+	font: 15px soroosh;
+}
+.cheltikkeh-settings-menu div #font table#color,
+.cheltikkeh-settings-menu div #border table#color,
+.cheltikkeh-settings-menu div #background table#color{
+	margin: 12px 0px;
+	width: 100%;
+	height: 280px;
+	background-color: rgba(200, 200, 200, 1);
+	border-radius: 3px;
+}
+.cheltikkeh-settings-menu div #font table#color #reference,
+.cheltikkeh-settings-menu div #font table#color #color-picker,
+.cheltikkeh-settings-menu div #border table#color #reference,
+.cheltikkeh-settings-menu div #border table#color #color-picker,
+.cheltikkeh-settings-menu div #background table#color #reference,
+.cheltikkeh-settings-menu div #background table#color #color-picker{
+	position: relative;
+}
+.cheltikkeh-settings-menu div #font table#color #reference,
+.cheltikkeh-settings-menu div #border table#color #reference,
+.cheltikkeh-settings-menu div #background table#color #reference{
+	background-image: url('/themes/default/includes/images/cr.png');
+	background-size: 100% 100%;
+}
+.cheltikkeh-settings-menu div #font table#color #color-picker,
+.cheltikkeh-settings-menu div #border table#color #color-picker,
+.cheltikkeh-settings-menu div #background table#color #color-picker{
+	background-image: url('/themes/default/includes/images/cp.png');
+	background-size: 100% 100%;
+	background-color: rgba(255, 0, 0, 1);
+}
+.cheltikkeh-settings-menu div #font table#color #reference #pointer,
+.cheltikkeh-settings-menu div #font table#color #color-picker #pointer,
+.cheltikkeh-settings-menu div #border table#color #reference #pointer,
+.cheltikkeh-settings-menu div #border table#color #color-picker #pointer,
+.cheltikkeh-settings-menu div #background table#color #reference #pointer,
+.cheltikkeh-settings-menu div #background table#color #color-picker #pointer{
+	cursor: pointer;
+	position: absolute;
+	border: none;
+	outline: none;
+	padding: 0px;
+	margin: -1px;
+	top: 0px;
+	width: 100%;
+	height: 8px;
+	background-color: rgba(200, 200, 200, 1);
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 1px;
+}
+.cheltikkeh-settings-menu div #font table#color #color-picker #pointer,
+.cheltikkeh-settings-menu div #border table#color #color-picker #pointer,
+.cheltikkeh-settings-menu div #background table#color #color-picker #pointer{
+	width: 8px;
+	margin: -2px;
+	border-radius: 4px;
+}
+.cheltikkeh-settings-menu div #font table#color #preview,
+.cheltikkeh-settings-menu div #border table#color #preview,
+.cheltikkeh-settings-menu div #background table#color #preview{
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+.cheltikkeh-settings-menu div #font table#color #preview-back,
+.cheltikkeh-settings-menu div #border table#color #preview-back,
+.cheltikkeh-settings-menu div #background table#color #preview-back{
+	width: 35px;
+	background-image: url('/themes/default/includes/images/nc.png');
+	background-size: 95% 95%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+}
+.cheltikkeh-settings-menu div #font table#color #value,
+.cheltikkeh-settings-menu div #border table#color #value,
+.cheltikkeh-settings-menu div #background table#color #value,
+.cheltikkeh-settings-menu div #background table#color #alpha{
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	padding: 0px 10px;
+	font: bold 17px arial;
+	color: rgba(0, 70, 160, 1);
+}
+.cheltikkeh-settings-menu div #background table#color #alpha{
+	width: 70px;
+}
+
+.cheltikkeh-settings-menu div #background #image{
+	border-bottom: none;
+}
+.cheltikkeh-settings-menu div #image #src[src=""],
+.cheltikkeh-settings-menu div #image #src[src="none"]{
+	height: 35px;
+}
+.cheltikkeh-settings-menu div #image button{
+	width: 49%;
+	border: 0px;
+	outline: none;
+	margin: 5px 0px;
+	padding: 10px 0px;
+	border-radius: 2px;
+	font: 15px soroosh;
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+
+/* ---------------------------------- */
+.cheltikkeh-settings-menu nav.operations{
+	margin: 10px;
+	text-align: center;
+}
+.cheltikkeh-settings-menu nav.remove button,
+.cheltikkeh-settings-menu nav.operations button{
+	width: 100%;
+	border: 0px;
+	outline: none;
+	margin: 5px 0px;
+	padding: 10px 0px;
+	border-radius: 2px;
+	font: 15px soroosh;
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+
+.cheltikkeh-settings-menu .right{
+	text-align: right;
+}
+.cheltikkeh-settings-menu .center{
+	text-align: center;
+}
+.cheltikkeh-settings-menu .left{
+	text-align: left;
+}
+.cheltikkeh-settings-menu .ltr{
+	direction: ltr;
+}
+.cheltikkeh-settings-menu .red{
+	background-color: rgba(250, 75, 75, 1);
+}
+.cheltikkeh-settings-menu .gray{
+	background-color: rgba(200, 200, 200, 1);
+}
+.cheltikkeh-settings-menu .blue{
+	background-color: rgba(75, 150, 250, 1);
+}
+.cheltikkeh-settings-menu .green{
+	background-color: rgba(75, 220, 75, 1);
+}
+/* --------------------------- */
+
+.cheltikkeh-settings-photos{
+	position: fixed;
+	width: 100%;
+	height: 0%;
+	top: 0px;
+	background-color: rgba(245, 245, 245, 1);
+	overflow: scroll;
+	overflow-x: hidden;
+	opacity: 0;
+	z-index: 10;
+}
+.cheltikkeh-settings-photos header{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 60px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px -5px 20px rgba(127, 127, 127, 1);
+}
+.cheltikkeh-settings-photos header h4,
+.cheltikkeh-settings-photos header menu{
+	width: 42%;
+	margin: 0px;
+	padding: 0px;
+	font: 30px soroosh;
+	text-align: right;
+	display: inline-block;
+}
+.cheltikkeh-settings-photos header menu{
+	margin: 0px;
+	text-align: left;
+}
+.cheltikkeh-settings-photos header button{
+	border: 0px;
+	outline: none;
+	margin: 0px;
+	padding: 10px 15px;
+	border-radius: 2px;
+	font: 15px soroosh;
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+.cheltikkeh-settings-photos header a button{
+	background-color: rgba(75, 220, 75, 1);
+}
+.cheltikkeh-settings-photos .photos-box{
+	margin: 0px 8%;
+	margin-top: 90px;
+	text-align: center;
+}
+.cheltikkeh-settings-photos .photos-box h4{
+	position: absolute;
+	margin: 0px;
+	top: 50%;
+	right: 0px;
+	left: 0px;
+	font: 17px soroosh;
+	color: rgba(0, 70, 160, 1);
+	text-align: center;
+}
+.cheltikkeh-settings-photos .photos-box .photo{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	cursor: pointer;
+	display: inline-block;
+}
+.cheltikkeh-settings-photos .photos-box .photo:before{
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	top: -10px;
+	right: -10px;
+	font: 75px icon;
+	padding: 25px 0px;
+	border: solid 10px rgba(170, 170, 170, 1);
+	border-radius: 7px;
+	transition: 450ms;
+	-moz-transition: 450ms;
+	-webkit-transition: 450ms;
+	content: " ";
+}
+
+.cheltikkeh-settings-photos .photos-box .photo .title{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	bottom: 0px;
+	padding: 0px;
+	text-align: center;
+	font: 16px soroosh;
+	color: rgba(200, 200, 200, 1);
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	transition: all 150ms;
+	-moz-transition: all 150ms;
+	-webkit-transition: all 150ms;
+}
+.cheltikkeh-settings-photos .photos-box .photo:hover .title{
+	height: 30px;
+	padding: 10px 0px;
+}
+
+.cheltikkeh-settings-photos .photos-box .photo.h-red-border:hover,
+.cheltikkeh-settings-photos .photos-box .photo.h-red-border:hover .title,
+.cheltikkeh-settings-photos .photos-box .photo.h-red-border:hover:before{
+	color: rgba(250, 75, 75, 1);
+	border-color: rgba(250, 75, 75, 1);
+}
+.cheltikkeh-settings-photos .photos-box .photo.h-blue-border:hover,
+.cheltikkeh-settings-photos .photos-box .photo.h-blue-border:hover .title,
+.cheltikkeh-settings-photos .photos-box .photo.h-blue-border:hover:before{
+	color: rgba(100, 125, 250, 1);
+	border-color: rgba(100, 125, 250, 1);
+}
+.cheltikkeh-settings-photos .photos-box .photo.h-green-border:hover,
+.cheltikkeh-settings-photos .photos-box .photo.h-green-border:hover .title,
+.cheltikkeh-settings-photos .photos-box .photo.h-green-border:hover:before{
+	color: rgba(75, 200, 75, 1);
+	border-color: rgba(75, 200, 75, 1);
+}
+.cheltikkeh-settings-photos .photos-box .photo.h-orange-border:hover,
+.cheltikkeh-settings-photos .photos-box .photo.h-orange-border:hover .title,
+.cheltikkeh-settings-photos .photos-box .photo.h-orange-border:hover:before{
+	color: rgba(250, 180, 50, 1);
+	border-color: rgba(250, 180, 50, 1);
+}
+
+.cheltikkeh-settings-photos .photos-box .photo .frame{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.cheltikkeh-settings-photos .photos-box .photo .frame img.vertical{
+	width: 100%;
+	height: auto;
+}
+.cheltikkeh-settings-photos .photos-box .photo .frame img.horizental{
+	width: auto;
+	height: 100%;
+}
+/* --------------------------- */
+
+/* ------------------------------- */
+/* Editor Container CasCade Styles */
+/* ------------------------------- */
+.cheltikkeh-editor-content{
+	margin-top: 80px;
+}
+
+.cheltikkeh-editor-content .dropable.locator{
+	position: relative;
+	height: auto;
+	border: 3px dashed rgba(250, 75, 75, 1);
+	text-align: center;
+}
+.cheltikkeh-editor-content .dropable.locator h4{
+	margin: 125px 0px;
+	font: 25px soroosh;
+	color: rgba(250, 75, 75, 1);
+}
+
+.cheltikkeh-editor-content .dragged{
+	opacity: 0.5;
+}
+.cheltikkeh-editor-content .droped{
+	opacity: 0.1;
+}
+.cheltikkeh-editor-content .locator{
+	position: relative;
+	height: 5px;
+	border: 2px dashed rgba(0, 0, 0, 1);
+}
+
+.cheltikkeh-editor-content .module-row,
+.cheltikkeh-editor-content .module-column,
+.cheltikkeh-editor-content .module-place{
+	position: relative;
+}
+.cheltikkeh-editor-content .module-place .module-place-menu{
+	position: absolute;
+	direction: ltr;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	z-index: 5;
+}
+.cheltikkeh-editor-content .module-place .module-place-menu #btnmove,
+.cheltikkeh-editor-content .module-place .module-place-menu #btndelete{
+	outline: none;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(0, 0, 0, 1);
+	cursor: pointer;
+	display: inline-block;
+}
+.cheltikkeh-editor-content .module-place .module-place-menu #btndelete:before{
+	position: absolute;
+	width: 45px;
+	margin: 12px 0px;
+	font: 25px icon;
+	color: rgba(220, 0, 0, 1);
+	text-align: center;
+}
+.cheltikkeh-editor-content .module-place .module-place-menu #btndelete:before{
+	content: "\f014";
+}
+/* ------------------------------- */
